@@ -1,0 +1,9 @@
+{
+    "/GestionVentas/*":{
+        "target":"http://localhost:5026",
+        "secure":false,
+        "logLevel":"debug",
+        "ChangeOrigin":true
+    }
+
+}

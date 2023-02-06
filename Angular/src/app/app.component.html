@@ -1,0 +1,30 @@
+
+
+<div style="text-align: center;">
+     <h1>
+          {{ title }} app is running! <br>
+          {{ ventas[4].vendedor }}, {{ vent.cliente }}, {{vent.factura}}
+    </h1>
+
+      <p>Usuarios Activos: {{ name }}, {{ Something1 }}, {{ Something2() }}</p>
+
+      <ul>
+      <li *ngFor="let item of ventas" align="center">
+          {{item.cliente}}, {{item.vendedor}}, {{item.factura}} 
+      </li>
+      </ul>
+       <br>
+      <ul> 
+       <li *ngFor="let Jsonitem of JsonVentas" align="center"> 
+        {{Jsonitem.cliente}}, {{Jsonitem.vendedor}}, {{Jsonitem.total}} 
+      </li>
+      </ul>      
+      
+    
+    <img width="150" alt="Angular Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"> 
+
+</div>
+    
+           
+    
+    
